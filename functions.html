@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in Python - WEB HUB</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+        body {
+            font-family: 'Padauk', sans-serif;
+            background-color: #fff9c4; /* Light yellow background */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #f57f17; /* Dark yellow for headings */
+        }
+        p {
+            color: #555;
+        }
+        pre {
+            background-color: #fff8e1; /* Light yellow for code background */
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+            border-radius: 4px;
+        }
+        .example-output {
+            background-color: #fff8e1; /* Light yellow output background */
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .exercise {
+            background-color: #ffebcd; /* Light yellow for exercises */
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .exercise h3 {
+            color: #f57f17; /* Dark yellow for exercise heading */
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Padauk', sans-serif;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>WEB HUB</h1>
+            <p>Founded by Zhorik</p>
+        </div>
+        <h1>Functions in Python</h1>
+        <p>Python တွင် Functions သည် code များကို reusable ဖြစ်စေပြီး, program တစ်ခုတည်းထဲတွင် လုပ်ဆောင်ချက်များကို ခွဲခြားစီမံနိုင်သည့် အစိတ်အပိုင်းများဖြစ်သည်။ 
+            Functions များသည် code ကို efficient နှင့် readable ဖြစ်စေပြီး, program ကို debugging လုပ်ရန်လည်း ပိုမိုလွယ်ကူစေပါသည်။</p>
+        
+        <h2>Function Example</h2>
+        <pre>
+# Defining a function in Python
+def greet(name):
+    print("Hello, " + name + "!")
+
+# Calling the function
+greet("Zhorik")
+        </pre>
+
+        <h2>Result</h2>
+        <div class="example-output">
+            <p>Hello, Zhorik!</p>
+        </div>
+
+        <h2>Function Explanation</h2>
+        <p>Python တွင် function တစ်ခုကို <code>def</code> keyword ဖြင့်သတ်မှတ်ပြီး function name နဲ့ parameters များကို 
+            argument များအားလုံး ထည့်သွင်းထားနိုင်ပါတယ်။ function ကို call လုပ်ရန်လည်း function name နဲ့ parameters ကို 
+            ပြန်လည်ပေးပို့ရပါမည်။ အထက်ပါ example တွင် <code>greet()</code> function ကို "Zhorik" ဆိုသော string ကို 
+            parameter အဖြစ် ဖြည့်ထားပြီး, function ၏ output အဖြစ် "Hello, Zhorik!" ဟု print ထုတ်ပေးသည်။</p>
+        
+        <div class="exercise">
+            <h3>လေ့ကျင့်ခန်းများ</h3>
+            <p>အောက်ပါ လေ့ကျင့်ခန်းများကို ပြုလုပ်ပါ -</p>
+            <ol>
+                <li>သင်၏အမည်ကို greet လုပ်ပေးသော function တစ်ခုရေးပါ။</li>
+                <li>သင်ကြိုက်နှစ်သက်သောစာသားကို function ၏ argument အဖြစ် ပေးပြီး output ကို print လုပ်ပါ။</li>
+                <li>function တစ်ခုတွင်

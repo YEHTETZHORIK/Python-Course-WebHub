@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionaries in Python - WEB HUB</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+        body {
+            font-family: 'Padauk', sans-serif;
+            background-color: #fff9c4; /* Light yellow background */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #f57f17; /* Dark yellow for headings */
+        }
+        p {
+            color: #555;
+        }
+        pre {
+            background-color: #fff8e1; /* Light yellow for code background */
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+            border-radius: 4px;
+        }
+        .example-output {
+            background-color: #fff8e1; /* Light yellow output background */
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .exercise {
+            background-color: #ffebcd; /* Light yellow for exercises */
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .exercise h3 {
+            color: #f57f17; /* Dark yellow for exercise heading */
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Padauk', sans-serif;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>WEB HUB</h1>
+            <p>Founded by Zhorik</p>
+        </div>
+        <h1>Dictionaries in Python</h1>
+        <p>Python တွင် Dictionary များသည် key-value pair များအဖြစ် အချက်အလက်များကို သိမ်းဆည်းထားရန် အသုံးပြုသော data structure ဖြစ်သည်။ 
+            Dictionary တွင် key များနှင့် value များကို pair အဖြစ်သတ်မှတ်ပြီး, dictionary ၏ key တွင် value တစ်ခုကို assign လုပ်နိုင်ပါသည်။</p>
+        
+        <h2>Dictionary Example</h2>
+        <pre>
+# Defining a dictionary in Python
+person = {
+    "name": "Zhorik",   # Key-value pair for name
+    "age": 20,          # Key-value pair for age
+    "city": "Yangon"    # Key-value pair for city
+}
+
+# Accessing values by keys
+print(person["name"])  # Accessing value by key "name"
+print(person["age"])   # Accessing value by key "age"
+print(person["city"])  # Accessing value by key "city"
+        </pre>
+
+        <h2>Result</h2>
+        <div class="example-output">
+            <p>Zhorik</p>
+            <p>20</p>
+            <p>Yangon</p>
+        </div>
+
+        <h2>Dictionary Explanation</h2>
+        <p>Python တွင် dictionary များကို curly braces (<code>{}</code>) အတွင်း key-value pair များကို define လုပ်သည်။ 
+            <code>key</code> သည် unique ဖြစ်ရမည်ဖြစ်ပြီး၊ <code>value</code> ကို key နှင့် အတူ assign လုပ်ရပါသည်။ 
+            ထို key-value pair များကို access လုပ်ရန် key ကို အသုံးပြုပါ။ အထက်ပါ example တွင် <code>person</code> dictionary 
+            တစ်ခု define လုပ်ပြီး, <code>person["name"]</code>, <code>person["age"]</code>, <code>person["city"]</code> 
+            ကို access လုပ်ထားပါသည်။</p>
+        
+        <div class="exercise">
+            <h3>လေ့ကျင့်ခန်းများ</h3>
+            <p>အောက်ပါ လေ့ကျင့်ခန်းများကို ပြုလုပ်ပါ -</p>
+            <ol>
+                <li>သင်၏အကြိုက်ဆုံး ကိုယ်ရေးအချက်အလက်များနှင့် dictionary တစ်ခု create လုပ်ပါ။</li>
+                <li>dictionary ထဲမှ key-value pair များကို access လုပ်ပါ။</li>
+                <li>value တစ်ခုကို update လုပ်ပါ။</li>
+            </ol>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 WEB HUB - Founded by Zhorik</p>
+            <p>Email: yehtetzanko420@gmail.com</p>
+            <p>Telegram: @zhorik9002</p>
+        </div>
+    </div>
+</body>
+</html>
